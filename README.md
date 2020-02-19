@@ -9,6 +9,7 @@ First [install Psalm](https://psalm.dev/quickstart) in your project, making sure
 ```
 composer require --dev psalm/plugin-laravel
 vendor/bin/psalm-plugin enable psalm/plugin-laravel
+php ./artisan config:clear
 ```
 
 ## How it works
